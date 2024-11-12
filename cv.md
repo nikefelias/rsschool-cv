@@ -3,7 +3,7 @@
 ## Contact Information
 - **Email** [victoriaberseneva93@gmail.com]
 - **Phone** +420608292780
-- **LinkedIn** [https://www.linkedin.com/in/viktoriia-berseneva-8a87b3316/
+- **LinkedIn** [https://www.linkedin.com/in/viktoriia-berseneva-8a87b3316/]
 
 ## Brief Self-Introduction
 I am a versatile and dedicated professional with a robust background in English teaching and philology, holding a Master’s degree in English Philology. My expertise in language education, paired with an artistic foundation from Ivan Shadr Art College, enables me to create engaging, adaptable learning experiences. 
