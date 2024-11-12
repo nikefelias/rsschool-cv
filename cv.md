@@ -1,5 +1,5 @@
 # Viktoriia Berseneva
-![Profile Picture](https://i.ibb.co/61ZWvNz/photo.jpg)
+![Profile Picture](https://i.ibb.co/17zcNJy/photo.jpg)
 
 ## Contact Information
 - **Email** [victoriaberseneva93@gmail.com]
