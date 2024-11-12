@@ -1,4 +1,5 @@
 # Viktoriia Berseneva
+![Profile Picture](photo.jpg)
 
 ## Contact Information
 - **Email** [victoriaberseneva93@gmail.com]
