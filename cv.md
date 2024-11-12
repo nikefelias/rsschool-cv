@@ -8,6 +8,7 @@
 
 ## Brief Self-Introduction
 I am a versatile and dedicated professional with a robust background in English teaching and philology, holding a Master’s degree in English Philology. My expertise in language education, paired with an artistic foundation from Ivan Shadr Art College, enables me to create engaging, adaptable learning experiences. 
+I’m transitioning to a new career path in frontend development after years as an English teacher. With a strong artistic sense and patience honed from teaching, I’m excited about the creative and problem-solving aspects of web development. My artistic background can enhance my design approach, helping create visually appealing websites, while my analytical skills enable me to efficiently identify and solve issues in code. Additionally, my proficiency in English supports my ability to work in diverse teams and engage with resources effectively.
 
 ## Skills
 - **Languages & Linguistics**: English Philology, English as a Foreign Language Teaching, Linguistics, American & English Literature
@@ -15,7 +16,47 @@ I am a versatile and dedicated professional with a robust background in English 
 - **Tech & Tools**: HTML & CSS, JavaScript
 
 ## Code Examples
-(If applicable, add links to any repositories or code snippets showcasing your work, or mention educational or programming exercises you've completed.)
+- **Codewars task**
+- Description:
+Our football team has finished the championship.
+
+Our team's match results are recorded in a collection of strings. Each match is represented by a string in the format "x:y", where x is our team's score and y is our opponents score.
+
+For example: ["3:1", "2:2", "0:1", ...]
+
+Points are awarded for each match as follows:
+
+    if x > y: 3 points (win)
+    if x < y: 0 points (loss)
+    if x = y: 1 point (tie)
+
+We need to write a function that takes this collection and returns the number of points our team (x) got in the championship by the rules given above.
+
+Notes:
+
+    our team always plays 10 matches in the championship
+    0 <= x <= 4
+    0 <= y <= 4
+
+- Solution:
+```function points(games) {
+  let totalPoints = 0;
+for (let i = 0; i < games.length; i++) {
+  let match = games[i];
+  let scores = match.split(":");
+  let x = Number(scores[0]);
+  let y = Number(scores[1]);
+   if (x > y) {
+     totalPoints += 3;
+   }
+  else if (x === y) {
+    totalPoints += 1;
+  }
+  
+}  
+  return totalPoints;
+}
+```
 
 ## Work Experience
 ### English Teacher | 2015 - Present
