@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 1140px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #dfebf5;
+  color: #333;
+}
+h1,
+h2,
+h3 {
+  color: #0b2133;
+}
+.column1 img {
+  width: 232px;
+  height: 250px;
+  object-fit: cover;
+  object-position: right top;
+}
+
+code {
+  background-color: #eee;
+  padding: 4px;
+  border-radius: 4px;
+}
+pre {
+  background-color: #f0f0f0;
+  padding: 10px;
+  overflow-x: auto;
+  border-left: 4px solid #ccc;
+}
+
+a {
+  color: #0b2133;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  max-width: 1140px;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 0;
+}
+
+.nav li {
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.1s ease;
+  border: #0b21334c 1px solid;
+  min-width: 100px;
+  border-radius: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+.nav li:hover {
+  background-color: #aed0eb;
+  border: white 1px solid;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.nav li a {
+  text-decoration: none;
+}
+.contact-info ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.language {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+}
+.language h3 {
+  margin: 0;
+}
+
+.circles {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+.circle-gray {
+  width: 10px;
+  height: 10px;
+  background-color: #aed0eb;
+  border-radius: 50%;
+}
+
+.column1 {
+  background-color: #7fa2bf;
+  max-height: 670px;
+  padding: 10px;
+}
+
+.column1 h2 p {
+  color: white;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.projects img {
+   max-width: 300px;
+}
+
+footer {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  max-height: 50px;
+  width: auto;
+  object-fit: contain;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Viktoriia Berseneva</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <ul class="nav">
+          <li><a href="#aboutme">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#code">Code</a></li>
+           <li><a href="#work-experience">Work Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </header>
+      <main class="main">
+        <section class="column column1">
+          <img src="./pictures/photo.jpg" alt="Profile Picture" class="photo" />
+
+          <div id="contact" class="contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+              <li class="item">
+                <strong>Email:</strong>
+                <span
+                  ><a href="mailto:victoriaberseneva93@gmail.com"
+                    >victoriaberseneva93@gmail.com</a
+                  ></span
+                >
+              </li>
+
+              <li class="item">
+                <strong>Address:</strong>
+                <span>Prague, Czech Republic</span>
+              </li>
+
+              <li class="item">
+                <a
+                  href="https://www.linkedin.com/in/viktoriia-berseneva-8a87b3316/"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <h2>Languages</h2>
+          <div class="language">
+            <h3>English</h3>
+            <div class="circles">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+          </div>
+          <div class="language">
+            <h3>Russian</h3>
+            <div class="circles">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+          </div>
+          <div class="language">
+            <h3>Czech</h3>
+            <div class="circles">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle circle-gray"></div>
+              <div class="circle circle-gray"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="column">
+          <h1>Viktoriia Berseneva</h1>
+
+          <section id="aboutme">
+            <h2>About me</h2>
+            <p>
+              I am a versatile and dedicated professional with a robust
+              background in English teaching and philology, holding a Master’s
+              degree in English Philology. My expertise in language education,
+              paired with an artistic foundation from Ivan Shadr Art College,
+              enables me to create engaging, adaptable learning experiences.
+            </p>
+            <p>
+              I’m transitioning to a new career path in frontend development
+              after years as an English teacher. With a strong artistic sense
+              and patience honed from teaching, I’m excited about the creative
+              and problem-solving aspects of web development. My artistic
+              background can enhance my design approach, helping create visually
+              appealing websites, while my analytical skills enable me to
+              efficiently identify and solve issues in code. Additionally, my
+              proficiency in English supports my ability to work in diverse
+              teams and engage with resources effectively.
+            </p>
+          </section>
+
+          <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>
+                <strong>Languages & Linguistics:</strong> English Philology,
+                Teaching English as a Foreign Language, Linguistics, Literature
+              </li>
+              <li>
+                <strong>Artistic Skills:</strong> Academic Painting, Drawing,
+                Graphic Design (Photoshop, Illustrator, InDesign)
+              </li>
+              <li>
+                <strong>Tech & Tools:</strong> HTML, CSS, JavaScript, React
+                (basic), Figma, Wordpress, Framer
+              </li>
+            </ul>
+          </section>
+
+          <section id="code">
+            <h2>Code Example</h2>
+            <h3>Codewars Task:</h3>
+            <p>Description: Calculate total points based on match results.</p>
+            <pre><code>
+function points(games) {
+  let totalPoints = 0;
+  for (let i = 0; i < games.length; i++) {
+    let match = games[i];
+    let scores = match.split(":");
+    let x = Number(scores[0]);
+    let y = Number(scores[1]);
+    if (x > y) {
+      totalPoints += 3;
+    } else if (x === y) {
+      totalPoints += 1;
+    }
+  }
+  return totalPoints;
+}
+  </code></pre>
+          </section>
+
+         <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+              <div class="project">
+                <a href="https://divadelni-luhacovice.cz/"
+                  ><img
+                    src="/pictures/luhacovice.png"
+                    alt="Project for a theatre festival"
+                /></a>
+                <p>Project for a theatre festival</p>
+              </div>
+              <div class="project">
+                <a href="https://monmartcoffee.cz/"
+                  ><img src="/pictures/monmart.png" alt="Project for a coffeeshop"
+                /></a>
+                <p>Website for a coffeeshop</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="work-experience">
+            <h2>Work Experience</h2>
+            <h3>Web Developer (current)</h3>
+            <p>
+              Building responsive web pages using HTML, CSS, and JavaScript.
+              Practicing layout design, animations, and component structure.
+              Working on personal projects to strengthen frontend skills and
+              exploring tools like Git, Figma, and React basics.
+            </p>
+            <h3>Technical Support Specialist (2025)</h3>
+            <p>
+              Provided technical assistance and support to end users by
+              diagnosing software and network issues. Ensured timely resolution
+              of technical problems through effective troubleshooting and clear
+              communication.
+            </p>
+
+            <h3>English Teacher (2015–2024)</h3>
+            <p>
+              Taught general and specialized English in both physical classrooms
+              and online platforms, consistently delivering personalized,
+              effective lessons.
+            </p>
+          </section>
+
+          <section id="education">
+            <h2>Education</h2>
+            <ul>
+              <li>
+                <strong>ReactGirls Academy</strong>, Prague — HTML, CSS,
+                JavaScript, React, TypeScript (2025)
+              </li>
+              <li>
+                <strong>Palacky University</strong>, Olomouc — Master’s in
+                English Philology (2021–2024)
+              </li>
+              <li>
+                <strong>Ural State Pedagogical University</strong>, Russia —
+                Bachelor’s in English Philology (2015–2019)
+              </li>
+              <li>
+                <strong>Erasmus Program</strong>, Poland — Exchange in English
+                Philology (Feb–Jun 2018)
+              </li>
+              <li>
+                <strong>Ivan Shadr Art College</strong>, Russia — Training in
+                Painting and Art Teaching (2010–2015)
+              </li>
+            </ul>
+          </section>
+        </section>
+      </main>
+
+      <footer>
+        <p>My <a href="Github">GitHub</a></p>
+        
+        <a href="https://rs.school/courses/javascript-ru">        <img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/a2a648a704a2eee3e2013b9e13bee765ab00f959/tasks/cv/rs-school-logo.svg" alt="">
+
+        </a>
+        <p>Made in 2025</p>
+      </footer>
+    </div>
+  </body>
+</html>
