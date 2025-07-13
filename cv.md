@@ -13,7 +13,7 @@ I’m transitioning to a new career path in frontend development after years as 
 ## Skills
 - **Languages & Linguistics**: English Philology, English as a Foreign Language Teaching, Linguistics, American & English Literature
 - **Artistic Skills**: Academic Painting, Drawing Techniques
-- **Tech & Tools**: HTML & CSS, JavaScript
+- **Tech & Tools**: HTML & CSS, JavaScript, React, Figma, Graphic Design programmes (Adobe Photoshop, Adobe Illustrator, Adobe InDesign)
 
 ## Code Examples
 - **Codewars task**
@@ -59,14 +59,21 @@ for (let i = 0; i < games.length; i++) {
 ```
 
 ## Work Experience
+### Web Designer (freelance)
+Designed and developed modern, responsive websites for various clients. Created custom UI/UX solutions, wireframes, and visual designs aligned with client goals. Specialized in Figma  and front-end implementation using HTML, CSS, and basic JavaScript.
+
+
+### Technical Support Specialist
+Provided technical assistance and support to end users by diagnosing software and network issues. Ensured timely resolution of technical problems through effective troubleshooting and clear communication. 
+
 ### English Teacher | 2015 - Present
 Taught general and specialized English in both physical classrooms and online platforms, consistently delivering personalized, effective lessons.
 
-### Office Administrator
-Used organizational skills to maintain smooth office operations and demonstrated flexibility in a variety of challenging administrative environments.
 
 ## Education
 
+- **IT Guru**, online — Java Script course  (2025)
+- **ReactGirls Academy**, Prague, Czech Republic — HTML, CSS, JavaScript, React, TypeScript  (2025)
 - **Palacky University**, Olomouc, Czech Republic — Master’s in English Philology (2021 - 2024)
 - **Ural State Pedagogical University**, Yekaterinburg, Russia — Bachelor’s in English Philology and Teaching (2015 - 2019)
 - **Erasmus Program** — Krosno State College, Krosno, Poland, Exchange in English Philology (Feb - Jun 2018)
