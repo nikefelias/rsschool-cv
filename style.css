@@ -12,7 +12,7 @@ h2,
 h3 {
   color: #0b2133;
 }
-img {
+.column1 img {
   width: 232px;
   height: 250px;
   object-fit: cover;
@@ -137,6 +137,15 @@ a:hover {
 
 .column1 h2 p {
   color: white;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.projects img {
+   max-width: 300px;
 }
 
 footer {
